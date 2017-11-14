@@ -1,4 +1,6 @@
 import math
+import sys
+sys.path.append('../../')
 from figure import Figure
 
 print "import successful"

@@ -6,7 +6,6 @@ class Figure:
     def __init__(self):
         self.base_path = os.path.dirname(os.path.abspath(__file__))
         self.scad_path = self.base_path+"/generated_openscad/"+str(time.time())[:-3]+".scad"
-        print self.scad_path
         scad_file = file(self.scad_path, "w")
         scad_preface = file(self.base_path+"/scad_preface.txt")
         for each in scad_preface:
