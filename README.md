@@ -8,7 +8,7 @@
 import sys
 sys.path.append(PATH_TO_FIGURE.PY)
 from figure import Figure
-fig = figure()
+fig = Figure()
 # a bunch of
 # fig.line((x1, y1, z1), (x2, y2, z2))
 fig.generate_stl()
