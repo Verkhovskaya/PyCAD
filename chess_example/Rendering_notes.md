@@ -1,0 +1,3 @@
+- Pawn has a 0.75 inch diameter, so since the pawn has a 7.9 points radius, 1 point =  0.05 inch
+- Rotation of 15 degrees with each step
+- 6 sided pattern, mirrored
